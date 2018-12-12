@@ -1,0 +1,306 @@
+#bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 6666;
+}
+
+#bar #cont{
+    width: 666px;
+    height: 400px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 111px;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 111px;
+    border-radius: 30px;
+}
+
+#bar #cont input{
+    width: 111px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 123px;
+    background: #e2231a;
+    border-radius: 20px;
+    color: white;
+}
+
+#bar #cont input:hover{
+    cursor: pointer;
+    background: #e4393c;
+}
+
+header{
+    width: 100%;
+    height: 110px;
+    box-shadow: 0 1px 10px #ccc;
+}
+
+header #head{
+    width: 1280px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+header #head img{
+    float: left;
+    margin-top: 18px;
+}
+
+header span{
+    display: block;
+    font-size: 24px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+header #has{
+    float: right;
+    margin-top: 60px;
+    color: gray;
+}
+
+header #has a{
+    color: red;
+}
+
+header #has a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+
+#box{
+    width: 353px;
+    height: 55px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+#box span{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    color: grey;
+    text-align: center;
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#box .grs{
+    background: rgba(0,200,0,.7);
+    color: white;
+    border: none;
+}
+
+#box .grp{
+    color: rgba(0,200,0,.7);
+}
+
+#box b{
+    color: gray;
+    margin: 0 5px;
+}
+
+#box p{
+    font-size: 12px;
+    position: absolute;
+    top: 30px;
+    color: gray;
+}
+
+#box p:nth-of-type(1){
+    left: -18px;
+}
+
+#box p:nth-of-type(2){
+    left: 135px;
+}
+
+#box p:nth-of-type(3){
+    left: 305px;
+}
+
+#phone{
+    width: 400px;
+    height: 52px;
+    margin: 0 auto;
+    margin-top: 45px;
+    position: relative;
+}
+
+#phone #adress{
+    width: 108px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: gray;
+    background: url("../img/down.png") no-repeat 90px 20px;
+    background-size: 10px 10px;
+    float: left;
+    cursor: pointer;
+}
+
+#phone #dq{
+    width: 300px;
+    height: 188px;
+    background: white;
+    text-align: center;
+    line-height: 188px;
+    position: relative;
+    top: 5px;
+    z-index: 66;
+    box-shadow: 0 0 5px grey;
+    display: none;
+}
+
+#phone #tel{
+    width: 290px;
+    height: 50px;
+    border: 1px solid #ccc;
+    line-height: 50px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+#yz{
+    width: 400px;
+    height: 15px;
+    font-size: 12px;
+    background: url("../img/！.png") no-repeat 0 1px;
+    background-size: 15px 15px;
+    padding-left: 20px;
+    display: none;
+    margin-top: 3px;
+    color: #ccc;
+    position: absolute;
+    top: 52px;
+    left: 0;
+}
+
+#btn{
+    width: 400px;
+    height: 50px;
+    display: block;
+    border: 1px solid #ccc;
+    background: white;
+    margin: 30px auto;
+}
+
+#btn:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#next{
+    width: 400px;
+    height: 50px;
+    display: block;
+    border: 1px solid #ccc;
+    background: #e2231a;
+    margin: 30px auto;
+    margin-top: 50px;
+    color: white;
+}
+
+#next:hover{
+    background: darkred;
+    cursor: pointer;
+}
+
+#others{
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+#others_left{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    background: url("../img/ren.png") no-repeat 0 2px;
+    background-size: 25px 25px;
+    padding-left: 30px;
+    color: black;
+}
+
+#others_right{
+    float: right;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    background: url("../img/diqiu.png") no-repeat 0 2px;
+    background-size: 25px 25px;
+    padding-left: 30px;
+    color: black;
+}
+
+#others_right:hover,#others_left:hover{
+    color: red;
+}
+
+.fixd{
+    width: 33px;
+    height: 135px;
+    background: #ccc;
+    position: fixed;
+    right: 0;
+    top: 266px;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 28px;
+    color: white;
+    border-radius: 10px;
+}
+
+.fixd:hover{
+    background: red;
+    cursor: pointer;
+}
+
+footer{
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+    margin-top: 222px;
+    overflow: hidden;
+}
+
+footer ul{
+    width: 910px;
+    margin: 20px auto;
+}
+
+footer ul li{
+    float: left;
+    font-size: 12px;
+    color: grey;
+}
+
+footer ul li a{
+    color: grey;
+    margin: 0 15px;
+}
+
+footer ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 50px;
+}

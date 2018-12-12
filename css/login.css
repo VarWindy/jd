@@ -1,0 +1,361 @@
+header{
+    width: 1000px;
+    height: 60px;
+    margin: 10px auto;
+}
+
+header #logo{
+    width: 290px;
+    height: 60px;
+    background: url("../img/logo.png") no-repeat;
+    padding-left: 190px;
+    font-size: 24px;
+    line-height: 75px;
+    color: rgb(80,80,80);
+    float: left;
+}
+
+header #link{
+    font-size: 12px;
+    float: right;
+    margin-top: 40px;
+}
+
+header #link a{
+    color: grey;
+}
+
+header #link a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+header #link img{
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.tips{
+    width: 100%;
+    height: 38px;
+    background: #fff8f0;
+    text-align: center;
+}
+
+.tips p{
+    margin: 0 auto;
+    padding-top: 13px;
+    font-size: 12px;
+    color: grey;
+}
+
+.tips a{
+    color: black;
+}
+
+.tips a:hover{
+    text-decoration: underline;
+}
+
+.banner{
+    width: 100%;
+    height: 475px;
+    background: rgb(20,20,20);
+}
+
+.banner #content{
+    width: 990px;
+    height: 475px;
+    margin: 0 auto;
+    background: url("../img/login-bg.jpg") no-repeat center;
+}
+
+.banner #login_form{
+    width: 345px;
+    height: 435px;
+    float: right;
+    margin-top: 10px;
+}
+
+.banner #login_tips{
+    width: 100%;
+    height: 38px;
+    background: #fff8f0;
+}
+
+.banner #login_tips p{
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    padding-top: 11px;
+}
+
+.banner #login_tab{
+    width: 100%;
+    height: 55px;
+    background: white;
+    border-bottom: 1px solid rgba(120,120,120,.1);
+}
+
+.banner #tab_left,#tab_right{
+    width: 172px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    float: left;
+    font-size: 18px;
+}
+
+.banner #login_tab a{
+    color: gray;
+}
+
+#login_form #login_tab .tab_a{
+    color: #e4393c;
+    font-weight: bold;
+}
+
+.banner #login_tab a:hover{
+    color: #e4393c;
+    font-weight: bold;
+}
+
+.banner #login_qr{
+    width: 100%;
+    height: 280px;
+    background: white;
+    overflow: hidden;
+}
+
+.banner #qr{
+    width: 160px;
+    height: 160px;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding-top: 8px;
+}
+
+.banner #login_qr p{
+    font-size: 12px;
+    text-align: center;
+}
+
+.banner #login_qr ul{
+    width: 260px;
+    margin: 15px auto;
+}
+
+.banner #login_qr ul li{
+    float: left;
+    font-size: 12px;
+    color: grey;
+    height: 25px;
+    width: 70px;
+    line-height: 25px;
+    margin: 0 8px;
+}
+
+.banner #login_qr ul li b{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    display: block;
+    background: url("../img/qr-coagent.png") no-repeat;
+    float: left;
+}
+
+.banner #login_qr ul li:nth-of-type(2) b{
+    background-position-x: -27px;
+}
+
+.banner #login_qr ul li:nth-of-type(3) b{
+    background-position-x: -54px;
+}
+
+#login_id{
+    width: 100%;
+    height: 280px;
+    background: white;
+    overflow: hidden;
+    display: none;
+    position: relative;
+}
+
+#login_id .name{
+    width: 300px;
+    height: 40px;
+    margin: 20px auto;
+    margin-top: 40px;
+}
+
+#login_id #loginname{
+    width: 260px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#login_id .name label{
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    border: 1px solid #ccc;
+    background: url("../img/pwd-icons.png") no-repeat 0 0;
+}
+
+#login_id .pwd{
+    width: 300px;
+    height: 40px;
+    margin: 20px auto;
+}
+
+#login_id #loginpwd{
+    width: 260px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+}
+
+#login_id .pwd label{
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    border: 1px solid #ccc;
+    background: url("../img/pwd-icons.png") no-repeat -48px 0;
+}
+
+#login_id a{
+    font-size: 12px;
+    float: right;
+    margin-right: 25px;
+    color: black;
+}
+
+#login_id a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#login_id #sub{
+    width: 245px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background: #e4393c;
+    color: white;
+    font-size: 20px;
+}
+
+#login_id #err{
+    width: 300px;
+    height: 25px;
+    border: 1px solid rgba(255,0,0,.2);
+    background: #ffebeb;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    left: 22px;
+    top: 5px;
+    display: none;
+}
+
+#login_bot{
+    width: 100%;
+    height: 50px;
+    background: white;
+    border-top: 1px solid rgba(70,70,70,.1);
+}
+
+#login_bot ul{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#login_bot ul li{
+    float: left;
+    font-size: 12px;
+    margin: 0 10px;
+}
+
+#login_bot ul li b{
+    width: 20px;
+    height: 18px;
+    display: block;
+    background: url("../img/QQ-weixin.png") no-repeat 0 0;
+    float: left;
+    margin-right: 5px;
+}
+
+#login_bot ul li:nth-of-type(2) b{
+    background: url("../img/QQ-weixin.png") no-repeat -20px 0;
+}
+
+#login_bot ul li a{
+    color: black;
+}
+
+#login_bot ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#login_bot #zc{
+    font-size: 14px;
+    color: red;
+    float: right;
+    margin-right: 20px;
+}
+
+#login_bot #zc:hover{
+    text-decoration: underline;
+}
+
+#login_bot #zc b{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("../img/pwd-icons.png") no-repeat -100px -72px;
+    float: left;
+    margin-right: 5px;
+}
+
+footer{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer ul{
+    width: 910px;
+    margin: 20px auto;
+}
+
+footer ul li{
+    float: left;
+    font-size: 12px;
+    color: grey;
+}
+
+footer ul li a{
+    color: grey;
+    margin: 0 15px;
+}
+
+footer ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 50px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东-欢迎登录</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <header><!-- 头部 logo -->
+        <div id="logo"><span>欢迎登录</span></div>
+        <div id="link"><img src="img/q-icon.png"><a href="#">登录页面，调查问卷</a></div>
+    </header>
+    <div class="tips">
+        <p>
+            <img src="img/icon-tips.png">
+            依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版<a href="#">《京东隐私政策》</a>已上线，将更有利于保护您的个人隐私。
+        </p>
+    </div>
+    <div class="banner">
+        <div id="content">
+            <div id="login_form"><!-- 登录框 -->
+                <div id="login_tips">
+                    <p>
+                        <img src="img/icon-tips.png">
+                        京东不会以任何理由要求您转账汇款，谨防诈骗。
+                    </p>
+                </div>
+                <div id="login_tab">
+                    <div id="tab_left"><a href="#" class="tab_a">扫码登录</a></div>
+                    <div id="tab_right"><a href="#">账户登录</a></div>
+                </div>
+                <div id="login_qr"><!-- 二维码 -->
+                    <div id="qr">
+                        <img src="img/wxQR.png" width="140px">
+                    </div>
+                    <p>打开<a href="#" style="color: red;">手机京东</a>，扫描二维码</p>
+                    <ul>
+                        <li><b></b>免输入</li>
+                        <li><b></b>更快</li>
+                        <li><b></b>更安全</li>
+                    </ul>
+                </div>
+                <div id="login_id"><!-- 账户登录框 -->
+                    <div id="err"></div>
+                        <div class="name">
+                            <label for="loginname"></label>
+                            <input type="text" id="loginname" placeholder="邮箱/用户名/已验证手机">
+                        </div>
+                        <div class="pwd">
+                            <label for="loginpwd"></label>
+                            <input type="password" id="loginpwd" placeholder="密码">
+                        </div>
+                        <a href="#">忘记密码</a>
+                        <input id="sub" type="button" value="登&nbsp;&nbsp;&nbsp;&nbsp;录">
+                </div>
+                <div id="login_bot">
+                    <ul>
+                        <li><b></b><a href="#">QQ</a></li>
+                        <li><b></b><a href="#">微信</a></li>
+                    </ul>
+                    <a href="register.html" id="zc"><b></b>立即注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="#">关于我们</a><span>|</span></li>
+            <li><a href="#">联系我们</a><span>|</span></li>
+            <li><a href="#">人才招聘</a><span>|</span></li>
+            <li><a href="#">商家入驻</a><span>|</span></li>
+            <li><a href="#">广告服务</a><span>|</span></li>
+            <li><a href="#">手机京东</a><span>|</span></li>
+            <li><a href="#">友情链接</a><span>|</span></li>
+            <li><a href="#">销售联盟</a><span>|</span></li>
+            <li><a href="#">京东社区</a><span>|</span></li>
+            <li><a href="#">京东公益</a><span>|</span></li>
+            <li><a href="#">English Site</a></li>
+        </ul>
+        <p>Copyright &copy 2004-2018  京东JD.com 版权所有</p>
+    </footer>
+</body>
+</html>

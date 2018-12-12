@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东安装</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/list.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/list.js"></script>
+</head>
+<body>
+    <header>
+        <div class="dh">
+            <a href="">京东首页</a>
+            <span>广东</span>
+            <div id="span">
+                <ul>
+                    <li><a href="">广东</a></li>
+                    <li><a href="">北京</a></li>
+                    <li><a href="">上海</a></li>
+                    <li><a href="">天津</a></li>
+                    <li><a href="">重庆</a></li>
+                    <li><a href="">河北</a></li>
+                    <li><a href="">山西</a></li>
+                    <li><a href="">河南</a></li>
+                    <li><a href="">辽宁</a></li>
+                    <li><a href="">吉林</a></li>
+                    <li><a href="">黑龙江</a></li>
+                    <li><a href="">内蒙古</a></li>
+                    <li><a href="">江苏</a></li>
+                    <li><a href="">山东</a></li>
+                    <li><a href="">安徽</a></li>
+                    <li><a href="">浙江</a></li>
+                    <li><a href="">福建</a></li>
+                    <li><a href="">湖北</a></li>
+                    <li><a href="">湖南</a></li>
+                    <li><a href="">广西</a></li>
+                    <li><a href="">江西</a></li>
+                    <li><a href="">四川</a></li>
+                    <li><a href="">海南</a></li>
+                    <li><a href="">贵州</a></li>
+                    <li><a href="">云南</a></li>
+                    <li><a href="">西藏</a></li>
+                    <li><a href="">陕西</a></li>
+                    <li><a href="">甘肃</a></li>
+                    <li><a href="">青海</a></li>
+                    <li><a href="">宁夏</a></li>
+                    <li><a href="">新疆</a></li>
+                    <li><a href="">港澳</a></li>
+                    <li><a href="">台湾</a></li>
+                    <li><a href="">钓鱼岛</a></li>
+                    <li><a href="">海外</a></li>
+                </ul>
+            </div>
+            <ul>
+                <li><a href="login.html" style="width: 80px">你好，请登录</a></li>
+                <li><a href="register.html" style="color:red">免费注册</a><span>|</span></li>
+                <li><a href="">我的订单</a><span>|</span></li>
+                <li><a href="" id="mdjd">我的京东<img src="img/down.png"></a><span>|</span></li>
+                <li><a href="">京东会员</a><span>|</span></li>
+                <li><a href="" id="qybuy">企业采购<img src="img/down.png"></a><span>|</span></li>
+                <li><a href="" id="khfw">客户服务<img src="img/down.png"></a><span>|</span></li>
+                <li><a href="" id="wzdh">网站导航<img src="img/down.png"></a><span>|</span></li>
+                <li><a href="" id="sjjd">手机京东</a></li>
+            </ul>
+            <div id="myjd">
+                <ul>
+                    <li><a href="">待处理订单</a></li>
+                    <li><a href="">消息</a></li>
+                    <li><a href="">返修退换货</a></li>
+                    <li><a href="">我的问答</a></li>
+                    <li><a href="">降价商品</a></li>
+                    <li><a href="">我的关注</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">我的京豆</a></li>
+                    <li><a href="">我的优惠券</a></li>
+                    <li><a href="">我的白条</a></li>
+                    <li><a href="">我的理财</a></li>
+                </ul>
+            </div>
+            <div id="buy">
+                <ul>
+                    <li><a href="">企业购</a></li>
+                    <li><a href="">商用场景馆</a></li>
+                    <li><a href="">工业品</a></li>
+                    <li><a href="">礼品卡</a></li>
+                </ul>
+            </div>
+            <div id="fuwu">
+                <span>客户</span>
+                <ul>
+                    <li><a href="">帮助中心</a></li>
+                    <li><a href="">售后服务</a></li>
+                    <li><a href="">在线客服</a></li>
+                    <li><a href="">意见建议</a></li>
+                    <li><a href="">电话客服</a></li>
+                    <li><a href="">客服邮箱</a></li>
+                    <li><a href="">金融咨询</a></li>
+                    <li><a href="">全球售客服</a></li>
+                </ul>
+                <span>商户</span>
+                <ul>
+                    <li><a href="">合作招商</a></li>
+                    <li><a href="">学习中心</a></li>
+                    <li><a href="">商家后台</a></li>
+                    <li><a href="">京麦工作台</a></li>
+                    <li><a href="">商家帮助</a></li>
+                    <li><a href="">规则平台</a></li>
+                </ul>
+            </div>
+            <div id="inter">
+                <div id="int-1">
+                    <span>特色主题</span>
+                    <ul>
+                        <li><a href="">京东试用</a></li>
+                        <li><a href="">京东金融</a></li>
+                        <li><a href="">全球售</a></li>
+                        <li><a href="">国际站</a></li>
+                        <li><a href="">京东会员</a></li>
+                        <li><a href="">京东预售</a></li>
+                        <li><a href="">买什么</a></li>
+                        <li><a href="">俄语站</a></li>
+                        <li><a href="">装机大师</a></li>
+                        <li><a href="">0元评测</a></li>
+                        <li><a href="">定期送</a></li>
+                        <li><a href="">港澳售</a></li>
+                        <li><a href="">优惠券</a></li>
+                        <li><a href="">秒杀</a></li>
+                        <li><a href="">闪购</a></li>
+                        <li><a href="">印尼站</a></li>
+                        <li><a href="">京东金融科技</a></li>
+                        <li><a href="">In货推荐</a></li>
+                        <li><a href="">陪伴计划</a></li>
+                        <li><a href="">出海招商</a></li>
+                    </ul>
+                </div>
+                <div id="int-2">
+                    <span>行业频道</span>
+                    <ul>
+                        <li><a href="">手机</a></li>
+                        <li><a href="">智能数码</a></li>
+                        <li><a href="">玩3C</a></li>
+                        <li><a href="">电脑办公</a></li>
+                        <li><a href="">家用电器</a></li>
+                        <li><a href="">京东智能</a></li>
+                        <li><a href="">服装城</a></li>
+                        <li><a href="">京东生鲜</a></li>
+                        <li><a href="">家装城</a></li>
+                        <li><a href="">母婴</a></li>
+                        <li><a href="">食品</a></li>
+                        <li><a href="">农资频道</a></li>
+                        <li><a href="">整车</a></li>
+                        <li><a href="">图书</a></li>
+                        <li><a href="">京东元器件</a></li>
+                    </ul>
+                </div>
+                <div id="int-3">
+                    <span>生活服务</span>
+                    <ul>
+                        <li><a href="">京东众筹</a></li>
+                        <li><a href="">白条</a></li>
+                        <li><a href="">京东金融App</a></li>
+                        <li><a href="">京东小金库</a></li>
+                        <li><a href="">理财</a></li>
+                        <li><a href="">话费</a></li>
+                        <li><a href="">水电煤</a></li>
+                        <li><a href="">彩票</a></li>
+                        <li><a href="">旅行</a></li>
+                        <li><a href="">机票酒店</a></li>
+                        <li><a href="">电影票</a></li>
+                        <li><a href="">京东到家</a></li>
+                        <li><a href="">游戏</a></li>
+                    </ul>
+                </div>
+                <div id="int-4">
+                    <span>更多精选</span>
+                    <ul>
+                        <li><a href="">合作招商</a></li>
+                        <li><a href="">京东通信</a></li>
+                        <li><a href="">京东E卡</a></li>
+                        <li><a href="">企业采购</a></li>
+                        <li><a href="">服务市场</a></li>
+                        <li><a href="">办公生活馆</a></li>
+                        <li><a href="">乡村招募</a></li>
+                        <li><a href="">校园加盟</a></li>
+                        <li><a href="">京友邦</a></li>
+                        <li><a href="">京东社区</a></li>
+                        <li><a href="">游戏社区</a></li>
+                        <li><a href="">知识产权维护</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="phonejd">
+                <div id="ph1">
+                    <img src="img/wxQR.png" width="70px">
+                    <span>手机京东<br><b>新人专享大礼包</b></span>
+                </div>
+                <div id="ph2">
+                    <img src="img/wxQR.png" width="70px">
+                    <span>关注京东微信<br><b>微信扫一扫关注新粉最高180元惊喜礼包</b></span>
+                </div>
+                <div id="ph3">
+                    <img src="img/wxQR.png" width="70px">
+                    <span>京东金融客户端<br><b>新人专享大礼包</b></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <menu>
+        <div class="menu">
+            <div id="search">
+                <input type="text" placeholder="来自程序猿的搜索框">
+                <a href=""><img src="img/xiangji.png"></a>
+                <button></button>
+            </div>
+            <div id="gouwc">
+                <img src="img/gouwc.png">
+                <a href="">我的购物车</a>
+            </div>
+            <div id="gwc">
+                购物车中还没有商品，赶紧选购吧！
+            </div>
+            <div id="saoma">
+                <img src="img/erweima.png">
+                <a href="">扫码享受优惠</a>
+            </div>
+            <div id="smyh">
+                <img src="img/wxQR.png">
+            </div>
+            <p>
+                <a href="">手机维修</a>
+                <a href="">家电清洗</a>
+                <a href="">家电服务</a>
+                <a href="">家电安装</a>
+                <a href="">苹果原厂</a>
+            </p>
+            <ul>
+                <li><a href="">安装服务</a></li>
+                <li><a href="">维修服务</a></li>
+                <li><a href="">清洗保养</a></li>
+                <li><a href="">特色服务</a></li>
+                <li><a href="">企悦服务</a></li>
+                <li><a href="">家电回收</a></li>
+            </ul>
+            <a href="">京东服务+品质保证</a>
+            <div id="fw">
+                京东服务+
+            </div>
+        </div>
+    </menu>
+    <div class="container">
+        <aside>
+            <div class="aside-items1">
+                <a href="">安装/调试服务</a>
+                <ul>
+                    <li><a href="">灯具安装</a></li>
+                    <li><a href="">电视安装</a></li>
+                    <li><a href="">电脑安装</a></li>
+                    <li><a href="">智能家居安装</a></li>
+                </ul>
+            </div>
+            <div class="aside-items1">
+                <a href="">检测/维修服务</a>
+                <ul>
+                    <li><a href="">手机维修</a></li>
+                    <li><a href="">家电维修</a></li>
+                    <li><a href="">笔记本维修</a></li>
+                    <li><a href="">iPad 维修</a></li>
+                </ul>
+            </div>
+            <div class="aside-items1">
+                <a href="">清洗/保养服务</a>
+                <ul>
+                    <li><a href="">家电清洗</a></li>
+                    <li><a href="">家居洗护</a></li>
+                    <li><a href="">冰箱清洗</a></li>
+                    <li><a href="">抽油烟机清洗</a></li>
+                </ul>
+            </div>
+            <div class="aside-items2">
+                <a href="">京东企悦服务</a>
+                <ul>
+                    <li><a href="">标准产品</a></li>
+                    <li><a href="">定制产品</a></li>
+                </ul>
+            </div>
+            <div class="aside-items3">
+                <a href="">京东特色服务</a>
+                <ul>
+                    <li><a href="">日常保洁</a></li>
+                    <li><a href="">骑行服务</a></li>
+                    <li class="i3-li"><a href="">家电清洗套装</a></li>
+                    <li class="i3-li"><a href="">空气净化服务</a></li>
+                </ul>
+            </div>
+            <div class="aside-cont">安装/调试服务</div>
+            <div class="aside-cont">检测/维修服务</div>
+            <div class="aside-cont">清洗/保养服务</div>
+            <div class="aside-cont">京东企悦服务</div>
+            <div class="aside-cont">京东特色服务</div>
+        </aside>
+        <div id="movepic"> <!-- 轮播图 -->
+            <img src="./img/pp1.jpg">
+            <img src="./img/pp2.jpg">
+            <img src="./img/pp3.jpg">
+            <img src="./img/pp4.jpg">
+            <img src="./img/pp5.jpg">
+            <img src="./img/pp6.jpg">
+            <div id="left"><a><</a></div>
+            <div id="rig"><a>></a></div>
+        </div>
+        <div id="con-right">
+            <div>
+                <img src="img/qijian.jpg">
+                <div class="cri">
+                    <h4>京东服务产品旗舰店</h4>
+                    <ul>
+                        <li><a href="">关注</a></li>
+                        <li><a href="">客服</a></li>
+                    </ul>
+                    <p>聚焦家用电器、家居家装、服饰鞋靴品类，提供安装服务、清洗保养、检测维修。</p>
+                </div>
+            </div>
+            <div>
+                <img src="img/fuwuqijian.jpg">
+                <div class="cri">
+                    <h4>京东维修服务旗舰店</h4>
+                    <ul>
+                        <li><a href="">关注</a></li>
+                        <li><a href="">客服</a></li>
+                    </ul>
+                    <p>3C/家电专业维修服务</p>
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li><a href="">
+                <img src="img/wuliu.jpg">
+                <div class="title">
+                    <span class="title1">物流保障</span>
+                    <span class="title2">服务全面 遍布全国</span>
+                </div>
+            </a></li>
+            <li><a href="">
+                <img src="img/jishu.jpg">
+                <div class="title">
+                    <span class="title1">技术保障</span>
+                    <span class="title2">专业服务 安全快捷</span>
+                </div>
+            </a></li>
+            <li><a href="">
+                <img src="img/shouquan.jpg">
+                <div class="title">
+                    <span class="title1">授权保障</span>
+                    <span class="title2">原厂授权 严格把关</span>
+                </div>
+            </a></li>
+            <li><a href="">
+                <img src="img/qiyue.jpg">
+                <div class="title">
+                    <span class="title1">企悦服务</span>
+                    <span class="title2">企业尊享 专享定制</span>
+                </div>
+            </a></li>
+        </ul>
+    </div>
+    <div class="flo mt"><img src="img/yhzq.jpg"></div>
+    <div class="yh">
+        <div class="thr">
+            <a>
+                <img src="img/thr1.jpg">
+                <p>家电上门清洗服务</p>
+                <span>￥348.00</span>
+                <ul>
+                    <li>家电清洗</li>
+                    <li>清洗保养</li>
+                </ul>
+            </a>
+        </div>
+        <div class="thr">
+            <a>
+                <img src="img/thr2.png">
+                <p>空调挂机清洗服务</p>
+                <span>￥59.00</span>
+                <ul>
+                    <li>家电清洗</li>
+                    <li>清洗保养</li>
+                </ul>
+            </a>
+        </div>
+        <div class="thr">
+            <a>
+                <img src="img/thr3.jpg">
+                <p>一加手机屏幕维修</p>
+                <span>￥594.00</span>
+                <ul>
+                    <li>一加换屏</li>
+                    <li>原厂维修</li>
+                </ul>
+            </a>
+        </div>
+        <div class="yhlb">
+            <img src="img/jdgz.jpg">
+            <img src="img/appleyc.jpg">
+            <img src="img/ipadwx.jpg">
+            <div class="lef"><a><</a></div>
+            <div class="righ"><a>></a></div>
+        </div>
+        <div class="yhlb2">
+            <img src="img/jdwxg.jpg">
+            <img src="img/jdqxg.jpg">
+            <img src="img/jdhsg.jpg">
+            <div class="lef2"><a><</a></div>
+            <div class="righ2"><a>></a></div>
+        </div>
+        <div class="yh7">
+            <img src="img/yh7.png">
+        </div>
+    </div>
+    <div class="flo mt"><img src="img/fwtj.jpg"></div>
+    <div id="fwtj">
+        <div class="box1">
+            <ul>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+                <li>
+                    <img src="img/appipad.jpg">
+                    <p>ipad维修</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+                <li>
+                    <img src="img/dyjwx.jpg">
+                    <p>打印机维修</p>
+                </li>
+            </ul>
+            <ol id="ol"><li class="fwli"></li><li></li></ol>
+        </div>
+        <div class="box2">
+            <img src="img/bluekt.jpg">
+        </div>
+        <div class="box3">
+            <ul class="rank-tab">
+                <li class="rankli">安装调试</li>
+                <li>维修检测</li>
+                <li>清洗保养</li>
+            </ul>
+            <ul class="ranks">
+                <li><b>1</b>
+                    <img src="img/rank1.jpg">
+                    <p>京东自营DIY上门装机服务</p>
+                    <span>￥148.00</span>
+                </li>
+                <li><b>2</b>
+                    <img src="img/rank2.jpg">
+                    <p>前置过滤器 安装服务</p>
+                    <span>￥120.00</span>
+                </li>
+                <li><b>3</b>
+                    <img src="img/rank3.jpg">
+                    <p>卫浴花洒套装上门安装服务</p>
+                    <span>￥100.00</span>
+                </li>
+                <li><b>4</b>
+                    <img src="img/rank4.jpg">
+                    <p>京东自营安防监控</p>
+                    <span>￥260.00</span>
+                </li>
+            </ul>
+            <ul class="ranks">
+                <li><b>1</b>
+                    <img src="img/rank3.jpg">
+                    <p>卫浴花洒套装上门安装服务</p>
+                    <span>￥100.00</span>
+                </li>
+                <li><b>2</b>
+                    <img src="img/rank2.jpg">
+                    <p>前置过滤器 安装服务</p>
+                    <span>￥120.00</span>
+                </li>
+                <li><b>3</b>
+
+                    <img src="img/rank1.jpg">
+                    <p>京东自营DIY上门装机服务</p>
+                    <span>￥148.00</span>
+                </li>
+                <li><b>4</b>
+                    <img src="img/rank4.jpg">
+                    <p>京东自营安防监控</p>
+                    <span>￥260.00</span>
+                </li>
+            </ul>
+            <ul class="ranks">
+                <li><b>1</b>
+                    <img src="img/rank3.jpg">
+                    <p>卫浴花洒套装上门安装服务</p>
+                    <span>￥100.00</span>
+                </li>
+                <li><b>2</b>
+                    <img src="img/rank4.jpg">
+                    <p>京东自营安防监控</p>
+                    <span>￥260.00</span>
+                </li>
+                <li><b>3</b>
+                    <img src="img/rank1.jpg">
+                    <p>京东自营DIY上门装机服务</p>
+                    <span>￥148.00</span>
+                </li>
+                <li><b>4</b>
+                    <img src="img/rank2.jpg">
+                    <p>前置过滤器 安装服务</p>
+                    <span>￥120.00</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="flo mt"><img src="img/jiadianaz.jpg"></div>
+    <div class="floor">
+        <div class="floor-i1">
+            <a href="">家电安装专区</a>
+            <p>服务推荐</p>
+            <ul>
+                <li><a href="">空调安装</a></li>
+                <li><a href="">电视安装</a></li>
+                <li><a href="">洗衣机安装</a></li>
+                <li><a href="">净水器安装</a></li>
+                <li><a href="">热水器安装</a></li>
+                <li><a href="">烟机/灶具安装</a></li>
+            </ul>
+        </div>
+        <div class="floor-i2">
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <div class="floor-i3">
+            <img src="img/jsqaz.jpg">
+        </div>
+        <div class="floor-i4">
+            <img src="img/dianshiaz.jpg">
+            <img src="img/reshuiqaz.jpg">
+            <img src="img/reshuiqaz.jpg">
+        </div>
+        <div class="floor-i2">
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <div class="floor-i5">
+            <img src="img/xiyijiaz.jpg">
+            <img src="img/dianshiaz.jpg">
+        </div>
+    </div>
+    <div class="flo mt"><img src="img/bangongaz.jpg"></div>
+    <div class="floor">
+        <div class="floor-i1">
+            <a href="">电脑办公安装</a>
+            <p>上门服务</p>
+            <ul>
+                <li><a href="">DIY装机</a></li>
+                <li><a href="">一体机安装</a></li>
+                <li><a href="">路由器安装</a></li>
+                <li><a href="">硒鼓安装</a></li>
+                <li><a href="">网络布线</a></li>
+                <li><a href="">幕布安装</a></li>
+            </ul>
+        </div>
+        <div class="floor-i2">
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/pcbijiben.jpg">
+                    <p>笔记本上门安装服务</p>
+                    <span>￥99.00</span>
+                    <ul>
+                        <li>PC安装</li>
+                        <li>安装服务</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/pcbijiben.jpg">
+                    <p>笔记本上门安装服务</p>
+                    <span>￥99.00</span>
+                    <ul>
+                        <li>PC安装</li>
+                        <li>安装服务</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/pcbijiben.jpg">
+                    <p>笔记本上门安装服务</p>
+                    <span>￥99.00</span>
+                    <ul>
+                        <li>PC安装</li>
+                        <li>安装服务</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <div class="floor-i3">
+            <img src="img/gjdiy.jpg">
+        </div>
+    </div>
+    <div class="flo mt"><img src="img/jiajvaz.jpg"></div>
+    <div class="floor">
+        <div class="floor-i1">
+            <a href="">家居安装专区</a>
+            <p>服务推荐</p>
+            <ul>
+                <li><a href="">家具安装</a></li>
+                <li><a href="">灯具安装</a></li>
+                <li><a href="">五金卫浴</a></li>
+                <li><a href="">晒衣架安装</a></li>
+                <li><a href="">热水器安装</a></li>
+                <li><a href="">烟机/灶具安装</a></li>
+            </ul>
+        </div>
+        <div class="floor-i2">
+            <div class="i2-1">
+                <a>
+                    <img src="img/7deng.jpg">
+                    <p>混合套装含吸顶灯</p>
+                    <span>￥330.00</span>
+                    <ul>
+                        <li>灯具安装</li>
+                        <li>灯具安装</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/7deng.jpg">
+                    <p>混合套装含吸顶灯</p>
+                    <span>￥330.00</span>
+                    <ul>
+                        <li>灯具安装</li>
+                        <li>灯具安装</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/7deng.jpg">
+                    <p>混合套装含吸顶灯</p>
+                    <span>￥330.00</span>
+                    <ul>
+                        <li>灯具安装</li>
+                        <li>灯具安装</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/7deng.jpg">
+                    <p>混合套装含吸顶灯</p>
+                    <span>￥330.00</span>
+                    <ul>
+                        <li>灯具安装</li>
+                        <li>灯具安装</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <div class="floor-i3">
+            <img src="img/jsqaz.jpg">
+        </div>
+        <div class="floor-i4">
+            <img src="img/dianshiaz.jpg">
+            <img src="img/reshuiqaz.jpg">
+            <img src="img/reshuiqaz.jpg">
+        </div>
+        <div class="floor-i2">
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="i2-1">
+                <a>
+                    <img src="img/thr3.jpg">
+                    <p>一加手机屏幕维修</p>
+                    <span>￥594.00</span>
+                    <ul>
+                        <li>一加换屏</li>
+                        <li>原厂维修</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+        <div class="floor-i5">
+            <img src="img/xiyijiaz.jpg">
+            <img src="img/dianshiaz.jpg">
+        </div>
+    </div>
+    <div class="mt"><img src="img/jmzdy.jpg"></div>
+    <div id="zdy">
+        <img src="img/redred.jpg">
+    </div>
+    <div class="baoz">
+        <ul>
+            <li><a href="">
+                <img src="img/wuliu.jpg">
+                <div class="title">
+                    <span class="title1">物流保障</span>
+                    <span class="title2">服务全面 遍布全国</span>
+                </div>
+            </a></li>
+            <li><a href="">
+                <img src="img/jishu.jpg">
+                <div class="title">
+                    <span class="title1">技术保障</span>
+                    <span class="title2">专业服务 安全快捷</span>
+                </div>
+            </a></li>
+            <li><a href="">
+                <img src="img/shouquan.jpg">
+                <div class="title">
+                    <span class="title1">授权保障</span>
+                    <span class="title2">原厂授权 严格把关</span>
+                </div>
+            </a></li>
+            <li><a href="">
+                <img src="img/qiyue.jpg">
+                <div class="title">
+                    <span class="title1">企悦服务</span>
+                    <span class="title2">企业尊享 专享定制</span>
+                </div>
+            </a></li>
+        </ul>
+    </div>
+    <footer>
+        <div class="flogo">
+            <img src="img/jdfuwu.png" alt="">
+        </div>
+        <div class="pinp">
+            <p>品牌愿景</p>
+            <p>成为中国最值得信赖的电商增值服务平台</p>
+        </div>
+        <div class="kefu">
+            <p>在线客服</p>
+            <p>客服电话：400-610-3600 <br>服务时间：9:00-18:00 <br>全年无休（国家法定节假日除外）<br> 反馈邮箱：sq_delivery@jd.com</p>
+        </div>
+    </footer>
+    <ul class="fl-tab">
+        <li></li>
+        <li class="tabs">优惠专区</li>
+        <li class="tabs">服务推荐</li>
+        <li class="tabs">家电安装</li>
+        <li class="tabs">办公安装</li>
+        <li class="tabs">家居安装</li>
+        <li class="tabs"><a href=""><img src="img/up.png"></a></li>
+    </ul>
+</body>
+</html>
